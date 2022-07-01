@@ -20,7 +20,7 @@
 
 lsi: false
 safe: true
-source: https://henu-zhanggao.github.io/
+# source: "https://henu-zhanggao.github.io/"
 incremental: false
 highlighter: rouge
 gist:
@@ -32,8 +32,8 @@ kramdown:
 title: ZhangGao
 email: zhanggao103@gmail.com
 description: Bookmark this to keep an eye on my project updates!
-baseurl: "https://henu-zhanggao.github.io/" # the subpath of your site, e.g. /blog
-url: "https://henu-zhanggao.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KeepSilent
 github_username:  ZhangGao
 
