@@ -17,12 +17,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+markdown: rdiscount
 lsi: false
 safe: true
 # source: "https://henu-zhanggao.github.io/"
 incremental: false
-highlighter: rouge
+highlighter: pygments
 gist:
   noscript: false
 kramdown:
@@ -35,7 +35,7 @@ description: to be or not to be
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KeepSilent
-github_username: ZhangGao
+github_username: Henu-ZhangGao
 
 # Build settings
 theme: minima
