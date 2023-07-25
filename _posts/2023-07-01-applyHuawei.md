@@ -12,7 +12,7 @@ I have applied a outstanding dispatch post for huawei on July 4th. By far, i hav
 
 ### Computer-based test
 
-Firstly, it is a computer examination, after which will be personality quiz(性格测试). the above is the first stage.
+Firstly, it is a computer examination, after which will be *personality quiz*(性格测试). the above is the first stage.
 
 ### Personality test
 
@@ -20,9 +20,11 @@ Secondly, personality test may pass out a certain amount of people, but not a lo
 
 ### Interview by Human Resource
 
+the following part is having a chat with a dude from the department of Human Resource. what she have problemed is consist of "what works you have done?","what could you get from the work you have done by far" and "Do you have a gf right now?"
 
 ### Interview by a man familiar with post you apply
 
+there are two following interview, which are significant for whole test and related to employment of you.
 
 ### Interview by another man
 
