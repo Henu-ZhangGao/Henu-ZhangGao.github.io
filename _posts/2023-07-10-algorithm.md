@@ -8,7 +8,7 @@ keywords: algorithm and data structure
 # Time and Space Complexity
 
 Definition: time and space complexity are significant factors reflecting the efficiency of an algorithm.
-
+<!--more-->
 1. Θ: the high bound and low bound of spending time => `f(x)=Θ(g(x))` `f(x)<=max(g(x)) and f(x)>=min(g(x)) `
 2. O: the high bound of spending time =>`f(x)<=max(g(x))`
 3. Ω: the low bound of spending time =>`f(x)>=min(g(x))`
