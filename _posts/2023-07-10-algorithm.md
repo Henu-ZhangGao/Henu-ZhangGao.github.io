@@ -1,13 +1,9 @@
 ---
-layout:post
-
-title:"Algorithm and Data Structure"
-
-categories:learning
-
-description:all notes i write for review
-
-keywords:algorithm and data structure
+layout: post
+title: "Algorithm and Data Structure"
+categories: learning
+description: all notes i write for review
+keywords: algorithm and data structure
 ---
 # Time and Space Complexity
 
