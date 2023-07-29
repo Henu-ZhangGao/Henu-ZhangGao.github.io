@@ -28,7 +28,7 @@ there are two following interview, which are significant for whole test and rela
 
 ### Interview by another man
 
-This step could be divided into four stages: foundational knowledge Question, algorithm Question, another Question in any order which comes to when interview happpened.
+This step could be divided into four stages: *foundational knowledge Question*, *algorithm Question*, *another Question* in any order which comes to when interview happpened.
 
 ### Interview by director
 
