@@ -5,13 +5,13 @@ categories: experience
 description: the record i have experience throughtout the whole proceedings
 keywords: Huawei
 ---
-## Overview
-
-I have applied a outstanding dispatch post for huawei on July 4th. 
+A not satisfied interview😟
 
 <!--more-->
 
-By far, i have been interviewed three and four times. there are a lot of things needed to care about. So I shall post it at following paragraph.
+## Overview
+
+I have applied a outstanding dispatch post for huawei on July 4th. By far, i have been interviewed three and four times. there are a lot of things needed to care about. So I shall post it at following paragraph.
 
 ### Computer-based test
 

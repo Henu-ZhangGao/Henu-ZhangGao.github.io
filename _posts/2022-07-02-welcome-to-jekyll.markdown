@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to MyBlog!"
 date:   2022-07-02 00:21:00 +0800
-categories: jekyll update
+categories: welcome
 ---
 Here is all you need to know.
 <!--more-->
