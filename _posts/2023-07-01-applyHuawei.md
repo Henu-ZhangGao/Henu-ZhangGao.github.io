@@ -4,6 +4,7 @@ title: "Huawei Apply"
 categories: experience
 description: the record i have experience throughtout the whole proceedings
 keywords: Huawei
+image: https://www.huawei.com/Assets/corp/v2/img/img_ent_en_logo_ico.png
 ---
 A not satisfied interview😟
 

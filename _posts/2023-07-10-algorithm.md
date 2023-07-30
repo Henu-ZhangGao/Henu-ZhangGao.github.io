@@ -4,6 +4,7 @@ title: "Algorithm and Data Structure"
 categories: learning
 description: all notes i write for review
 keywords: algorithm and data structure
+image: https://lastmomenttuitions.com/wp-content/uploads/2021/05/Data-Structure-and-Algorithm.jpg
 ---
 note to remember algorithm
 <!--more-->
