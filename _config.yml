@@ -35,7 +35,7 @@ header_pages:
   - _pages/private.md
 
 include:
-    - _pages
+  - _pages
 
 title: ZhangGao
 email: zhanggao103@gmail.com
@@ -50,6 +50,7 @@ excerpt_separator: <!--more-->
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -59,12 +60,12 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 # exclude:
-  # - .sass-cache/
-  # - .jekyll-cache/
-  # - gemfiles/
-  # - Gemfile
-  # - Gemfile.lock
-  # - vendor/bundle/
-  # - vendor/cache/
-  # - vendor/gems/
-  # - vendor/ruby/
+# - .sass-cache/
+# - .jekyll-cache/
+# - gemfiles/
+# - Gemfile
+# - Gemfile.lock
+# - vendor/bundle/
+# - vendor/cache/
+# - vendor/gems/
+# - vendor/ruby/
