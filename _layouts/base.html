@@ -4,17 +4,17 @@
   {%- include head.html -%}
 
   <body>
-
+    <div class="site-background"></div>
+    <div class="site-content">
     {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
-
     {%- include footer.html -%}
-
+  </div>
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
   </body>
 
 </html>
