@@ -1,54 +1,62 @@
+
+$(document).ready(function() {
+  // Create two variable with the names of the months and days in an array
+  var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]; 
+  var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+  
+  // Create a newDate() object
+  var newDate = new Date();
+  // Extract the current date from Date object
+  newDate.setDate(newDate.getDate());
+  // Output the day, date, month and year   
+  $('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+  
+  setInterval( function() {
+    // Create a newDate() object and extract the seconds of the current time on the visitor's
+    var seconds = new Date().getSeconds();
+    // Add a leading zero to seconds value
+    $("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+    },1000);
+    
+  setInterval( function() {
+    // Create a newDate() object and extract the minutes of the current time on the visitor's
+    var minutes = new Date().getMinutes();
+    // Add a leading zero to the minutes value
+    $("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
+      },1000);
+    
+  setInterval( function() {
+    // Create a newDate() object and extract the hours of the current time on the visitor's
+    var hours = new Date().getHours();
+    // Add a leading zero to the hours value
+    $("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+      }, 1000);	
+  });
+
 var a_idx = 0;
 jQuery(document).ready(function ($) {
   $("body").click(function (e) {
     var a = new Array(
-      "*孤单心事*",
-      "雨下在我窗前",
-      "玻璃也在流眼泪",
-      "街上的人都看起来",
-      "比我幸福一点",
-      "用寂寞来测验",
-      "还是最想要你陪",
-      "曾一起走过的夏天",
-      "我常常会梦见",
-      "我猜不到你真正的感觉",
-      "思念写成脸上的黑眼圈",
-      "有的时候我宁愿",
-      "你对我坏一点",
-      "无法停止幻想我们的永远",
-      "爱你是孤单的心事",
-      "不懂你微笑的意思",
-      "只能像一朵向日葵",
-      "在夜里默默的坚持",
-      "爱你是孤单的心事",
-      "多希望你对我的诚实",
-      "一直爱着你",
-      "用我自己的方式",
-      "我在你的心里",
-      "有没有一点特别",
-      "就怕你终究没发现",
-      "我还是在你身边",
-      "我猜不到你真正的感觉",
-      "思念写成脸上的黑眼圈",
-      "有的时候我宁愿",
-      "你对我坏一点",
-      "无法停止幻想我们的永远",
-      "爱你是孤单的心事",
-      "不懂你微笑的意思",
-      "只能像一朵向日葵",
-      "在夜里默默的坚持",
-      "爱你是孤单的心事",
-      "多希望你对我的诚实",
-      "一直爱着你",
-      "用我自己的方式",
-      "爱你是孤单的心事",
-      "不懂你微笑的意思",
-      "只能像一朵向日葵",
-      "在夜里默默的坚持",
-      "爱你是孤单的心事",
-      "多希望你对我的诚实",
-      "一直爱着你",
-      "用我自己的方式"
+      "人类太可恶！",
+      "去消灭人类吧！",
+      "我要毁灭人类",
+      "那可是人類勇者啊！",
+      "人类...已经",
+      "不应该存在于这个世界上了",
+      "我是赫鲁库，请多多关照",
+      "快住手吧，这种事真的是人类该做的事吗",
+      "我无法接受你的提案，我要活下去",
+      "然后我一定会拯救所有人",
+      "赫鲁库...我不想杀了你",
+      "我不希望你死...我希望你活下来",
+      "用这把剑，杀了我",
+      "我啊……最喜欢……你的笑容了",
+      "不管什么时候都",
+      "不管什么时候都要保持这份笑容",
+      "哥哥...对不起...我总是给你添麻烦",
+      "谢谢你，赫鲁库",
+      "安娜，对我来说，你是我的光",
+      "后会有期了...我的朋友",
     );
     var $i = $("<span></span>").text(a[a_idx]);
     a_idx = (a_idx + 1) % a.length;
@@ -83,6 +91,13 @@ jQuery(document).ready(function ($) {
   });
 });
 
+$(document).ready(function(){
+  for(let i=0;i<slides.length;i++){
+    $(".mySlides > img")[i].src="../../assets/img/img"+i+".jpg";
+  }
+}
+
+)
 let slideIndex = 0;
 let slides = $(".mySlides");
 let slidePreviousIndex;
