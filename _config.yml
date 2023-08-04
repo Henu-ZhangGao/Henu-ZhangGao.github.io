@@ -22,7 +22,7 @@ lsi: false
 safe: true
 # source: "https://henu-zhanggao.github.io/"
 incremental: false
-highlighter: pygments
+highlighter: rouge
 gist:
   noscript: false
 kramdown:
@@ -37,6 +37,9 @@ header_pages:
 include:
   - _pages
 
+paginate: 3
+paginate_path: "/blog/page:num/"
+favicon: favicon.ico
 title: ZhangGao
 email: zhanggao103@gmail.com
 description: to be or not to be
@@ -51,6 +54,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
