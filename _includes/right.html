@@ -1,0 +1,19 @@
+<div class="site-side site-side-right">
+    <div class="post site-side-widget">
+        <div class="widget-clock">
+            <div id="Date"></div>
+              <ul>
+                  <li id="hours"></li>
+                  <li id="point">:</li>
+                  <li id="min"></li>
+                  <li id="point">:</li>
+                  <li id="sec"></li>
+              </ul>
+            </div>
+    </div>
+    {%- for dataItem in site.data.string.mottos -%}
+    <div class="post site-side-widget">
+        {{dataItem}}
+    </div>
+    {%- endfor -%}
+</div>

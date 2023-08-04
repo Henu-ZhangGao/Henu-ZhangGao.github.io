@@ -9,7 +9,9 @@ title: Project
   <div class="artwork-card">
     <div class="artwork-image">
       <a href="{{ post.url }}">
+        {% if post.image %}
         <img src="{{ post.image }}" alt="{{ post.title }}" />
+        {% endif %}
       </a>
     </div>
     <div class="artwork-info">

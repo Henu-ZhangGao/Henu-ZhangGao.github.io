@@ -1,0 +1,8 @@
+<div class="site-side site-side-left">
+    {%- for post in site.categories.learning -%}
+    <div class="post site-side-widget">
+        {{ post.title | escape }}
+        <img src="{{ post.image | escape }}"/>
+    </div>
+    {%- endfor -%}
+</div>
