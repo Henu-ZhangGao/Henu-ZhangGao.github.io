@@ -1,6 +1,6 @@
 ---
 permalink: /private
-layout: page_without_title
+layout: page
 title: Private
 ---
 # Welcome

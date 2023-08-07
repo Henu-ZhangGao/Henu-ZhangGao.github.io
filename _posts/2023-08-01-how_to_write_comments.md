@@ -5,7 +5,6 @@ categories: learning
 description: the roadmap of constructing personal rack
 keywords: comments
 tags: application
-image: TODO
 ---
 # 📝Comments
 
@@ -26,12 +25,12 @@ here are types of comments:
 
 2. File Comment
    {% highlight ruby %}
-   #include`<iostream>`
+   #include `<iostream>`
    {% endhighlight %}
 3. Clsss Comment
 
 {% highlight ruby %}
-template`<class T>`
+template `<class T>`
 class LinkedList: List{
   private:
   LinkedNode *node;
@@ -71,10 +70,6 @@ void diffcult(int i,...){
 ListNode * cursor //the cursor for search
 {% endhighlight %}
 
-<p align="center">
-
 Credit:[Google 开源项目风格指南][googleStyleGuideZh]
-
-</p>
 
 [googleStyleGuideZh]: =https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/
