@@ -1,0 +1,16 @@
+---
+permalink: /help
+layout: page
+title: List
+---
+{% for category in site.categories -%}
+<div class="post">
+    <p>{{category[0]}}</p>
+</div>
+<div class="post">
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</div>
+
+{%- endfor %}
