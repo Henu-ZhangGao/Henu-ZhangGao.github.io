@@ -79,9 +79,21 @@ body {
 .svg-icon {
   padding-right: 0px;
 }
+
+@media screen and (max-width: 600px) {
+  .site-background{
+    --imgAddress: url(img/wallpaper_1.png);
+  }
+}
+@media screen and (min-width: 600px){
+  .site-background{
+    --imgAddress: url(img/wallpaper.png);
+  }
+}
+
+
 .site-background {
   --transparent: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
-  --imgAddress: url(img/wallpaper.png);
   background-attachment: fixed;
   background-image: cross-fade(var(--transparent), var(--imgAddress), 40%);
   background-image: -webkit-cross-fade(var(--transparent), var(--imgAddress), 40%);
@@ -119,7 +131,7 @@ body {
   margin-bottom: 0px;
 }
 
-@media screen and (min-width:400px){
+@media screen and (min-width:600px){
   .site-side {
     display: flex;
     flex-direction: column;
@@ -128,11 +140,6 @@ body {
   }
   
 }
-// @media screen and (max-width:400px){
-//   .site-side {
-//     display: none;
-//   }
-// }
 
 .site-side-left {
   align-items: flex-start;
@@ -142,7 +149,7 @@ body {
   align-items: flex-end;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
   .site-side > div {
     display: none;
   }
@@ -156,10 +163,6 @@ body {
 }
 
 .site-side-widget {
-  background-image: -webkit-linear-gradient(left, #ffb055, #08e400 25%, #a10000 50%, #08e400 75%, #ffb055);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-background-size: 200% 100%;
   text-shadow: 1px 0px #717171;
   animation: maskedAnimation 4s infinite linear;
 }
@@ -192,18 +195,6 @@ body {
   text-align: center;
   font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
   text-shadow: 0 0 5px #00c8ff;
-}
-
-@font-face {
-  font-family: "BebasNeueRegular";
-  src: url("BebasNeue-webfont.eot");
-  src:
-    url("BebasNeue-webfont.eot?#iefix") format("embedded-opentype"),
-    url("BebasNeue-webfont.woff") format("woff"),
-    url("BebasNeue-webfont.ttf") format("truetype"),
-    url("BebasNeue-webfont.svg#BebasNeueRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
 }
 
 #Date {
@@ -240,7 +231,7 @@ body {
   padding: 0px;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
   .wrapper-addition {
     max-width: 80%;
     justify-content: center;
