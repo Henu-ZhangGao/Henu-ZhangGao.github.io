@@ -6,7 +6,7 @@ description: the roadmap of constructing personal rack
 keywords: comments
 tags: application
 ---
-# 📝Comments
+# Comments
 
 here are types of comments:
 
@@ -21,32 +21,57 @@ here are types of comments:
 
 > 📝 **Comment:** The Comment easy for laymen to understand are beautiful.
 
-> 💡 **Tip:** Remember to appreciate the little things in life.
-
 2. File Comment
-   {% highlight ruby %}
-   #include `<iostream>`
-   {% endhighlight %}
+
+{% highlight ruby %}
+/**
+* @file test.cpp
+* @author your name (you@domain.com)
+* @brief 
+* @version 0.1
+* @date 2023-08-08
+* 
+* @copyright Copyright (c) 2023
+* 
+*/
+#include `<iostream>`
+
+{% endhighlight %}
+
 3. Clsss Comment
 
 {% highlight ruby %}
+
+/**
+ * @brief 
+ * 
+ * @tparam T 
+ */
 template `<class T>`
 class LinkedList: List{
-  private:
-  LinkedNode *node;
-  public:
-  LinkedList(){};
-  ~LinkedList(){};
-  void operator()(const T* arg){
+ private:
+ LinkedNode *node;
+ public:
+ LinkedList(){};
+ ~LinkedList(){};
+ void operator()(const T* arg){
 
-  }
+ }
+
 }
 {% endhighlight %}
 
 4. Function Comment
 
 {% highlight ruby %}
-void functionName(T arg_1,T arg_2){
+/**
+ * @brief 
+ * 
+ * @param arg_1 
+ * @param arg_2 
+ * @return T 
+ */
+T test::functionName(T arg_1,T arg_2){
 
 }
 {% endhighlight %}
@@ -56,10 +81,9 @@ void functionName(T arg_1,T arg_2){
 {% highlight ruby %}
 void diffcult(int i,...){
   ...
-  va_list args;
-  va_start(args,i);
-
-  va_end(args);
+  va_list args;//brief...
+  va_start(args,i);//brief...
+  va_end(args);//brief...
   ...
 }
 {% endhighlight %}
@@ -69,6 +93,8 @@ void diffcult(int i,...){
 {% highlight ruby %}
 ListNode * cursor //the cursor for search
 {% endhighlight %}
+
+> 💡 **Tip:** Remember to appreciate the little things in life.
 
 Credit:[Google 开源项目风格指南][googleStyleGuideZh]
 

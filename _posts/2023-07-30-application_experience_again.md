@@ -12,3 +12,7 @@ Hey dudes, I dunno shall to share about it.
 <!--more-->
 
 So Here it go, I have to apply huawei post again, but is for test. Laterly, I will take part in a interview with huawei. Bless me!👌
+
+---
+
+It's 8.8 when i finish all interviews. To sum up, There are four stages you need to prepare: 1. Computer-based Test(3 questions: two ,one )
