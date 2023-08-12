@@ -39,9 +39,15 @@ title: blog
     {% else %}
       <span class="paginator-previous"></span>
     {% endif %}
-    <span class="page_number ">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <em>{{ page }}</em>
+      {% elsif page == 1 %}
+      <a href="{{ '/' | relative_url }}">{{ page }}</a>
+      {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="paginator-next">Next</a>
     {% else %}
