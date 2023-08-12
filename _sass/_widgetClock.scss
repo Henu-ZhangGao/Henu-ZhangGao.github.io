@@ -1,0 +1,32 @@
+.widget-clock {
+    width: 100%;
+    margin: 0 auto;
+    color: #adadad;
+  }
+  
+  .widget-clock > ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .widget-clock > ul > li {
+    display: inline;
+    text-align: center;
+    font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px #00c8ff;
+  }
+  
+  #Date {
+    font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px #00c3ff;
+  }
+  
+  #point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+  }

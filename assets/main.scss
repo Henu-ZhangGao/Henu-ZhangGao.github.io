@@ -1,48 +1,18 @@
 ---
+
 ---
 
-@import "minima";
+@import "minima",'_project','_widgetClock','_showSlide';
+
+$full-screen-x: 100vw;
+
 html {
   height: 100%;
 }
 body {
   justify-content: space-between;
   height: 100%;
-}
-
-.artwork-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px 20px;
-  justify-content: space-around;
-}
-
-.artwork-card {
-  width: 300px; /* Adjust as needed */
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: white;
-}
-
-.artwork-image img {
-  width: 100%;
-  height: 200px; /* Adjust as needed */
-  object-fit: cover;
-}
-
-.artwork-info {
-  padding: 10px;
-}
-
-.artwork-title {
-  font-size: 20px;
-  margin: 0;
-}
-
-.artwork-date {
-  color: #888;
-  font-size: 14px;
+  overflow-x:hidden;
 }
 
 .footer-col {
@@ -91,7 +61,6 @@ body {
   }
 }
 
-
 .site-background {
   --transparent: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
   background-attachment: fixed;
@@ -100,7 +69,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
+  width: $full-screen-x;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -176,37 +145,8 @@ body {
   }
 }
 
-.widget-clock {
-  width: 100%;
-  margin: 0 auto;
-  color: #adadad;
-}
-
-.widget-clock > ul {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px;
-  list-style: none;
-  text-align: center;
-}
-
-.widget-clock > ul > li {
-  display: inline;
-  text-align: center;
-  font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
-  text-shadow: 0 0 5px #00c8ff;
-}
-
-#Date {
-  font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
-  text-align: center;
-  text-shadow: 0 0 5px #00c3ff;
-}
-
-#point {
-  position: relative;
-  -moz-animation: mymove 1s ease infinite;
-  -webkit-animation: mymove 1s ease infinite;
+.site-nav{
+  z-index: 1;
 }
 
 /* Slideshow container */
@@ -235,101 +175,5 @@ body {
   .wrapper-addition {
     max-width: 80%;
     justify-content: center;
-  }
-}
-
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  width: auto;
-  top: 50%;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 10%;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes grow {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.4;
   }
 }
