@@ -16,7 +16,7 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# in the templates via {{ site.myvariable }}. 
 markdown: kramdown
 lsi: false
 safe: true
@@ -45,7 +45,7 @@ email: zhanggao103@gmail.com
 description: to be or not to be
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeepSilent
+twitter_username: Elijah_Lus
 github_username: Henu-ZhangGao
 show_excerpts: true
 excerpt_separator: <!--more-->

@@ -2,18 +2,35 @@
     <div class="post site-side-widget">
         <div class="widget-clock">
             <div id="Date"></div>
-              <ul>
-                  <li id="hours"></li>
-                  <li id="point">:</li>
-                  <li id="min"></li>
-                  <li id="point">:</li>
-                  <li id="sec"></li>
-              </ul>
+            <ul>
+                <li id="hours"></li>
+                <li id="point">:</li>
+                <li id="min"></li>
+                <li id="point">:</li>
+                <li id="sec"></li>
+            </ul>
+        </div>
+    </div>
+    {%- for category in site.categories -%}
+        {%- if category[0] == 'welcome' -%}
+        <div class="post site-side-widget">
+        {% for post in category[1] %}
+        <li>
+            <div>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <div>
+                    <img src="{{post.image}}" />
+                    <div>
+                        {%- include social.html -%}
+                    </div>
+                </div>
             </div>
+            {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+            {%- endif -%}
+        </li>
+        {% endfor %}
     </div>
-    {%- for dataItem in site.data.string.mottos -%}
-    <div class="post site-side-widget">
-        {{dataItem}}
-    </div>
+    {%- endif -%}
     {%- endfor -%}
 </div>
