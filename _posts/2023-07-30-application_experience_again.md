@@ -11,6 +11,13 @@ image: https://photo.upc.edu.cn/__local/5/25/62/21321DF5B99DE60B3B0840AEAE0_1DC1
 Hey dudes, I dunno shall to share about it.
 <!--more-->
 
+<div align="center">
+
+![screenshot](https://i.imgur.com/WLZzd1n.png)
+
+</div>
+
+
 So Here it go, I have to apply huawei post again, but is for test. Laterly, I will take part in a interview with huawei. Bless me!👌
 
 ---
