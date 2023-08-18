@@ -22,10 +22,9 @@ The Final End:
 
 <div align="center">
 
-![screenshot](https://i.imgur.com/WLZzd1n.png)
+<img src="https://i.imgur.com/WLZzd1n.png"/>
 
 </div>
-
 <pre>
 <code>
     It's 8.12 when i finish all interviews. To sum up, There are four stages you need to prepare:

@@ -31,7 +31,7 @@ kramdown:
 
 header_pages:
   - _pages/List.html
-  - _pages/introduce.html
+  - _pages/project.html
   - _pages/private.md
 
 include:

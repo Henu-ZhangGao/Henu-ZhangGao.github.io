@@ -22,7 +22,19 @@
         </div>
   
         <div class="footer-col footer-col-3">
-          <p>{{- site.description | escape -}}</p>
+          <ul class="contact-list">
+            <li class="p-name">
+              {%- if site.author -%}
+              {{- site.description | escape -}}
+              {%- endif -%}
+              </li>
+              {%- for footer in site.data.string.footer -%}
+              <li>
+                {{footer}}
+              </li>
+              {%- endfor -%}
+          </ul>
+          <p></p>
         </div>
       </div>
     </div>

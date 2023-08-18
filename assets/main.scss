@@ -44,6 +44,7 @@ body {
   opacity: 0.75;
   padding: 10px 20px;
   max-width: 90%;
+  max-width: 70vw;
   margin: 2% auto;
 }
 
@@ -204,4 +205,17 @@ body {
     max-width: 80%;
     justify-content: center;
   }
+}
+
+.footer-col-wrapper{
+  display:flex;
+  justify-content: space-around;
+}
+
+.wrapper:after, .footer-col-wrapper:after{
+  content: none;
+}
+
+.footer-col-wrapper{
+  margin-left: 0;
 }
