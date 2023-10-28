@@ -23,7 +23,6 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  console.log(n);
   let dots = $(".dot");
   slides.eq(n).fadeOut("fast", function () {
     slides.eq(slideIndex).fadeIn("fast");

@@ -177,6 +177,7 @@ body {
 /* Slideshow container */
 .site-slideshow-container {
   max-width: 100%;
+  width: 100%;
   position: relative;
   margin: 0px 0px 5% 0px;
   border-radius: 10px;
@@ -185,18 +186,14 @@ body {
 
 .site-slideshow-container>div:last-child {
   position: absolute;
-  bottom: 1%;
+  bottom: 0%;
   width: 100%;
-}
-
-.wrapper{
-  max-width: 100%;
 }
 
 .wrapper-addition {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
+  max-width: 50%;
   padding: 0px;
 }
 

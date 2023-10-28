@@ -28,3 +28,7 @@ We respect your control over your information and, upon request, we will confirm
 ## Contact Us
 
 For any questions or concerns regarding your privacy, you may contact us using the following details:
+
+[zhanggao103@gmail.com][mail]
+
+[mail]: =https://mail.google.com

@@ -49,6 +49,7 @@ twitter_username: Elijah_Lus
 github_username: Henu-ZhangGao
 show_excerpts: true
 excerpt_separator: <!--more-->
+gitalk: true
 # Build settings
 theme: minima
 plugins:

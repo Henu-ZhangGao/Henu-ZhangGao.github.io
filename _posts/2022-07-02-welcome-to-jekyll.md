@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to MyBlog!"
 date:   2022-07-02 00:21:00 +0800
 categories: welcome
-image: ../favicon.ico
 ---
 Here is all you need to know.
 
